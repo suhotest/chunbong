@@ -1,0 +1,29 @@
+{
+  "$schema": "file:///C:/Users/11/Documents/GitHub/chunbong/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "chunbong (Minecraft 1.21.10)",
+    "description": "chunbong Running Minecraft 1.21.10 (Fabric v0.18.2)",
+    "icon": "https://github.com/minsuho/dolpal/raw/main/repo/ico.png",
+    "address": "175.112.128.168",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.18.2"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": [
+        "options.txt",
+        "config/*"
+      ]
+    }
+  ]
+}

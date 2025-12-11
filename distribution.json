@@ -1,0 +1,363 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "chunbong-1.21.10",
+      "name": "chunbong (Minecraft 1.21.10)",
+      "description": "chunbong Running Minecraft 1.21.10 (Fabric v0.18.2)",
+      "icon": "https://github.com/minsuho/dolpal/raw/main/repo/ico.png",
+      "version": "1.0.0",
+      "address": "175.112.128.168",
+      "minecraftVersion": "1.21.10",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944281,
+            "MD5": "d841cf4350d061f67d7fecd5075b99c0",
+            "url": "https://github.com/suhotest/chunbong/raw/main/repo/lib/net/fabricmc/fabric-loader/0.18.2/fabric-loader-0.18.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.10-fabric-0.18.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2850,
+                "MD5": "eb9bbb2a1d7520b63482db5000f72646",
+                "url": "https://github.com/suhotest/chunbong/raw/main/repo/versions/1.21.10-fabric-0.18.2/1.21.10-fabric-0.18.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/suhotest/chunbong/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/suhotest/chunbong/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/suhotest/chunbong/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/suhotest/chunbong/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/suhotest/chunbong/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://github.com/suhotest/chunbong/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.10",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 778652,
+                "MD5": "612031a185c7493cc93e908a875b72cc",
+                "url": "https://github.com/suhotest/chunbong/raw/main/repo/lib/net/fabricmc/intermediary/1.21.10/intermediary-1.21.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.4.7.48@jar",
+          "name": "Better Advancements",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 103181,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/BetterAdvancements-Fabric-1.21.10-0.4.7.48.jar",
+            "MD5": "1bb4ca13fa2ba76b09fed861311ba0e9"
+          }
+        },
+        {
+          "id": "me.cael:capes:1.5.9+1.21.9@jar",
+          "name": "Capes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71856,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/capes-1.5.9+1.21.9-fabric.jar",
+            "MD5": "7b5da3df45d2bb09dc84eb2155536f85"
+          }
+        },
+        {
+          "id": "generated.fabricmod:clumps:28.0.0.1@jar",
+          "name": "Clumps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21121,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/Clumps-fabric-1.21.10-28.0.0.1.jar",
+            "MD5": "c3dca246148fb241e8b53099a21b3d8c"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.1-beta.2+1.21.10@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 994514,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/continuity-3.0.1-beta.2+1.21.10.jar",
+            "MD5": "8b3d04df15d3661238d0174e3d50b0df"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.11.0@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 196562,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/dynamic-fps-3.11.0+minecraft-1.21.9-fabric.jar",
+            "MD5": "c50d088427c5aa2d6c39648593346b44"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.4@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1570362,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/entityculling-fabric-1.9.4-mc1.21.10.jar",
+            "MD5": "3b428d2ae7738c70ebd0bdd69bc5503f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.138.3+1.21.10@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2376234,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/fabric-api-0.138.3+1.21.10.jar",
+            "MD5": "b263728ad8fceb348162ac0b18c02de6"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.7+kotlin.2.2.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7479608,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
+            "MD5": "89a977d6a4d7a84b8390f9143dd689f7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:8.0.2@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79573,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/ferritecore-8.0.2-fabric.jar",
+            "MD5": "3fccc3293645a624bc2d67cb811e79fe"
+          }
+        },
+        {
+          "id": "com.gitter.gtdonationapi.fabric.v1_21_10:gtdonationapi:2.0.4@jar",
+          "name": "GT-DonationAPI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8984096,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/GT-DonationAPI-fabric-1.21.10-2.0.4.jar",
+            "MD5": "75c3c07e5072b9753a49ae789f6fb84f"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:2.0.4@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 109242,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/gtnick-fabric-1.21.10-2.0.4.jar",
+            "MD5": "f0d8492ecf6defa5da84e85c138f0b3c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.13.3+1.21.10@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 196597,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/ImmediatelyFast-Fabric-1.13.3+1.21.10.jar",
+            "MD5": "4b6fe5d1254561b5f8077acf24c5d49d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.9.6+mc1.21.9@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2708042,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/iris-fabric-1.9.6+mc1.21.9.jar",
+            "MD5": "d0695462e2d28cc581f87311614e2052"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.10-6.0.0-beta.54@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3609586,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/journeymap-fabric-1.21.10-6.0.0-beta.54.jar",
+            "MD5": "dd31566084dca5a025f32f8d6bd1017d"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.6@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 424633,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/modernfix-fabric-5.20.6-1.21.10.jar",
+            "MD5": "0fcdf75975dd6cfa1d71176c8257d0fa"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:16.0.0-rc.1@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1077403,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/modmenu-16.0.0-rc.1.jar",
+            "MD5": "74c349a72ddd8010f67b5cece9aed277"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.8.1+1.21.10@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 267926,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/placeholder-api-2.8.1+1.21.10.jar",
+            "MD5": "1627995de31167ebb185975e6c952eb9"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.7@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12196197,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/plasmovoice-fabric-1.21.9-2.1.7.jar",
+            "MD5": "fa40fbd5554fecb4a585b3a83aa1fe35"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.7.3+mc1.21.10@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1676903,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/sodium-fabric-0.7.3+mc1.21.10.jar",
+            "MD5": "57a54742a51ae95bdc47e83f7245a9e2"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.1+1.21.10-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1127754,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar",
+            "MD5": "9298a2e7f5e0689ef604359ebc70d7bb"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.6+1.21.9@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1869193,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/Zoomify-2.14.6+1.21.9.jar",
+            "MD5": "b18b8126f580e1a410114054e7ec1eb6"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 324,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip",
+          "name": "ComplementaryReimagined_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500696,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/files/shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+            "MD5": "04c822b2da584e21745869190ac653e6",
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
