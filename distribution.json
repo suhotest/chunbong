@@ -136,6 +136,16 @@
           }
         },
         {
+          "id": "moe.caramel.chat:caramelchat:1.2.2@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 161633,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/caramelChat-mc1.21.9-fabric-1.2.2.jar",
+            "MD5": "2249ea3c1174dbc8bfa7e6e294e62d1f"
+          }
+        },
+        {
           "id": "generated.fabricmod:clumps:28.0.0.1@jar",
           "name": "Clumps",
           "type": "FabricMod",
@@ -330,7 +340,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 324,
+            "size": 128,
             "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/files/options.txt",
             "path": "options.txt"
           }
