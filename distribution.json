@@ -12,7 +12,7 @@
       "name": "chunbong (Minecraft 1.21.10)",
       "description": "chunbong Running Minecraft 1.21.10 (Fabric v0.18.2)",
       "icon": "https://github.com/minsuho/dolpal/raw/main/repo/ico.png",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "address": "175.112.128.168",
       "minecraftVersion": "1.21.10",
       "discord": {
