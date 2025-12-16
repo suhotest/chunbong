@@ -256,16 +256,6 @@
           }
         },
         {
-          "id": "journeymap:journeymap:1.21.10-6.0.0-beta.54@jar",
-          "name": "Journeymap",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 3609586,
-            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/journeymap-fabric-1.21.10-6.0.0-beta.54.jar",
-            "MD5": "dd31566084dca5a025f32f8d6bd1017d"
-          }
-        },
-        {
           "id": "org.embeddedt:modernfix:5.20.6@jar",
           "name": "ModernFix",
           "type": "FabricMod",
