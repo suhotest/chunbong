@@ -216,13 +216,13 @@
           }
         },
         {
-          "id": "com.gitter.gtdonationapi.fabric.v1_21_10:gtdonationapi:2.0.4@jar",
+          "id": "com.gitter.gtdonationapi.fabric.v1_21_10:gtdonationapi:2.0.5@jar",
           "name": "GT-DonationAPI",
           "type": "FabricMod",
           "artifact": {
-            "size": 8984096,
-            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/GT-DonationAPI-fabric-1.21.10-2.0.4.jar",
-            "MD5": "75c3c07e5072b9753a49ae789f6fb84f"
+            "size": 8991291,
+            "url": "https://github.com/suhotest/chunbong/raw/main/servers/chunbong-1.21.10/fabricmods/required/GT-DonationAPI-fabric-1.21.10-2.0.5.jar",
+            "MD5": "68ace28a8e18f0f84e88c9680a0e4a3b"
           }
         },
         {
